@@ -1,0 +1,32 @@
+/**
+ * 
+ */
+package salesforce.tests;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+/**
+ * @author claud
+ *
+ */
+public class Pruebas {
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		WebDriver driver = BrowserFactory.getDriver();
+		
+		driver.get("https://pdsdes-apolo.cs101.force.com/FacturacionPagos/s/?language=es_MX");
+		driver.findElement(By.linkText("INICIAR   SESIÓN")).click();
+		
+		driver.findElementById("email").sendKeys("claudiojesus_10@hotmail.com");
+		driver.findElementById("pass").sendKeys("america2010");
+		
+		driver.findElement(By.className("cb-section"));
+
+		
+	}
+
+}

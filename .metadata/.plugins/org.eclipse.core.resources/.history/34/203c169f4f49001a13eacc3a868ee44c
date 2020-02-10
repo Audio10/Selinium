@@ -1,0 +1,11 @@
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class TestByObjects {
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\claud\\drive\\Udemy\\Selenium\\Drivers\\chromedriver.exe");
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("https://facebook.com");
+		driver.findElementById("email").sendKeys("");;
+		
+	}
+}

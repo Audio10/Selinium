@@ -1,0 +1,21 @@
+package salesforce.tests;
+
+import org.openqa.selenium.PageLoadStrategy;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class BrowserFactory {
+
+	public static WebDriver driver;
+	
+	public BrowserFactory() {}
+	
+	public static WebDriver getDriver() {
+		if (driver == null) {
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--disable-notifications");
+			options.setPageLoadStrategy(PageLoadStrategy.NONE);
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\claud\\drive\\Udemy\\Selenium\\Drivers\\chromedriver.exe");
+		}
+	}
+}

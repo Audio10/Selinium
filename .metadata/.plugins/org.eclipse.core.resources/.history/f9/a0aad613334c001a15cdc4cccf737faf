@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package salesforce.tests;
+
+/**
+ * @author claud
+ *
+ */
+public class LoginPage {
+
+}

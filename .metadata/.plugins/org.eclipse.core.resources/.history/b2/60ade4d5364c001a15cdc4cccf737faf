@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package salesforce.tests;
+
+/**
+ * @author claud
+ *
+ */
+public class Pruebas {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+
+	}
+
+}

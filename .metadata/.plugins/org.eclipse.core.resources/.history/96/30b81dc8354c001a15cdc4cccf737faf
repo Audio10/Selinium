@@ -1,0 +1,14 @@
+/**
+ * 
+ */
+package salesforce.tests;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+/**
+ * @author claudio Vazquez
+ *
+ */
+public class LoginPage {
+	
+}

@@ -1,0 +1,25 @@
+/**
+ * 
+ */
+package salesforce.tests;
+
+import org.openqa.selenium.WebDriver;
+
+/**
+ * @author claud
+ *
+ */
+public class Pruebas {
+
+	
+	
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+
+	}
+
+}

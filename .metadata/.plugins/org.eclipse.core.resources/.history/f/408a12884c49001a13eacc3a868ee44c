@@ -1,0 +1,36 @@
+import org.openqa.selenium.chrome.ChromeDriver;
+
+/**
+ * 
+ */
+
+/**
+ * @author claud
+ *
+ */
+public class Demo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\claud\\drive\\Udemy\\Selenium\\Drivers\\chromedriver.exe");
+		ChromeDriver driver = new ChromeDriver();
+		driver.get("https://google.com");
+		// Obtener el titulo de la pantalla.
+		System.out.println(driver.getTitle());
+		
+		// Si estas llegando a la url especificada.
+		System.out.println(driver.getCurrentUrl());
+		
+		// Obtener el data source de la pagina
+		System.out.println(driver.getPageSource());
+		
+		driver.get("https://yahoo.com");
+		
+		// Navegar hacia atras.
+		driver.navigate().back();
+		
+	}
+
+}
